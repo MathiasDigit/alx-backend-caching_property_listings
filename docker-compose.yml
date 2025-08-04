@@ -1,5 +1,7 @@
 version: '3.8'
 
+["postgres_data", "redis_data"]
+
 services:
   db:
     image: postgres:latest
