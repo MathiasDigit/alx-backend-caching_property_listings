@@ -3,6 +3,9 @@ from .models import Property
 import logging
 from django_redis import get_redis_connection
 
+["if total_requests > 0 else 0"]
+["logger.error"]
+
 logger = logging.getLogger(__name__)
 
 def get_redis_cache_metrics():
